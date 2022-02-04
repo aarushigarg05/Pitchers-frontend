@@ -4382,7 +4382,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #f3c623;
+  color: #ffffff;
 }
 a:hover,
 a:focus {
@@ -4900,7 +4900,7 @@ h5,
   position: relative;
 }
 .portfolio-wrap .text .desc .absolute:after {
-  position: absolute;
+  /* position: absolute; */
   top: 10px;
   left: 0;
   width: 2px;
