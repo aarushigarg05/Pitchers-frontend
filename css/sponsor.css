@@ -23,3 +23,11 @@
     height: 100px;
     width: 250px;
 }
+.font
+{
+    font-family: "Flaticon";
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center !important;
+}
