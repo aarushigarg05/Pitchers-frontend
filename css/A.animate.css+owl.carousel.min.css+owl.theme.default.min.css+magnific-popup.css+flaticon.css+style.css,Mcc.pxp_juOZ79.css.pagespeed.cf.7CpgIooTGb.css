@@ -4012,6 +4012,9 @@ a.close.disabled {
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-item-prev:not(.carousel-item-right),
 .active.carousel-item-left {
@@ -5077,8 +5080,8 @@ h5,
   padding: 2px 5px;
 }
 .form-control {
-  height: 52px !important;
-  border-radius: 0;
+  height: 40px !important;
+  border-radius: 10px !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   background: transparent !important;
@@ -5243,6 +5246,7 @@ textarea.form-control {
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
+  border-radius: 10px !important;
 }
 .contactForm .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -5434,14 +5438,14 @@ form input[type="radio"] {
 }
 form .button {
   height: 45px;
-  margin: 5px 0;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 form .button input {
   height: 100%;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   border: none;
   /* color: #fff; */
@@ -5462,5 +5466,5 @@ form .button input:hover {
   color: #fff;
 }
 .spacing {
-  height: 2px;
+  height: 8px;
 }
