@@ -10,7 +10,6 @@
 .slider {
     height: 100px;
     margin: auto;
-    overflow: hidden;
     position: relative;
     width: auto;
 }
