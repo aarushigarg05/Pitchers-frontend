@@ -4382,12 +4382,12 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #ffffff;
+  color: #e9e20e;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #f3c623;
+  color:#e9e20e;
   outline: none !important;
 }
 h1,
