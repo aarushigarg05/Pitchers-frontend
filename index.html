@@ -56,7 +56,10 @@
   </script>
 </head>
 
-<body style="overflow-x:hidden">
+<body style="overflow-x:hidden" onload="myFunction()">
+  <div class="loader" id="loading">
+    <h1>Pitchers 6.0 <span class="bullets">.</span></h1>
+  </div>
   <div id="colorlib-page">
     <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
     <aside id="colorlib-aside" role="complementary" class="js-fullheight">
@@ -80,7 +83,7 @@
     </aside>
     <div id="colorlib-main">
       <section class="ftco-section ftco-no-pt ftco-no-pb">
-        <div class="container px-md-0">
+        <!-- <div class="container px-md-0"> -->
           <div class="row d-flex no-gutters">
             <div class="col-md-12 portfolio-wrap">
               <div class="row no-gutters align-items-center">
@@ -214,6 +217,7 @@
                   </ul>
                 </div>
               </div>
+              </div>
               <!-- timeline end -->
               <div class="col-md-12 portfolio-wrap">
                 <div class="row no-gutters align-items-center">
@@ -292,7 +296,7 @@
                 </div>
               </div>
 
-              <div class="container">
+              <div class="container" style="padding-left:0px; padding-right:0px;">
                 <h2 class="mb-4 font">Our Sponsors</h2>
                 <div class="slider">
                   <div class="slide-track">
@@ -351,7 +355,7 @@
                   </div>
                 </div>
 
-              </div>
+              
               <!-- <div class="col-md-12 portfolio-wrap">
                 <div class="row no-gutters align-items-center">
                   <a
@@ -534,7 +538,7 @@
       </div>
     </div>
     </footer>
-
+  </div>
               <script src="js/jquery.min.js"></script>
               <script
                 src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.MA6tdLu4e_.js"></script>
@@ -596,6 +600,13 @@
                 integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
                 data-cf-beacon='{"rayId":"6d6d605f5ac633ea","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
                 crossorigin="anonymous"></script>
+                <script>
+                 var preloader = document.getElementById('loading');
+                 function myFunction()
+                 {
+                   preloader.style.display="none";
+                 }
+                </script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/mostudio/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 18:52:43 GMT -->
