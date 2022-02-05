@@ -5162,7 +5162,7 @@ textarea.form-control {
 .bg-primary {
   background: #f3c623 !important;
 }
-.image-popup {
+/* .image-popup {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
   cursor: zoom-in;
@@ -5175,8 +5175,8 @@ textarea.form-control {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-}
-.mfp-with-zoom.mfp-ready .mfp-container {
+} */
+/* .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1;
 }
 .mfp-with-zoom.mfp-ready.mfp-bg {
@@ -5185,7 +5185,7 @@ textarea.form-control {
 .mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
-}
+} */
 .wrapper {
   width: 100%;
 }
