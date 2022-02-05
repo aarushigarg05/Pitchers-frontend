@@ -477,3 +477,8 @@ body {
   display: none;
   
 }
+.holder{
+  text-align: left;
+  margin: auto;
+  padding-bottom: 10%;
+}
