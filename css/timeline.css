@@ -1,7 +1,4 @@
-body {
-  background-color: #f7f7f7;
-  margin-top: 20px;
-}
+
 
 .main-timeline {
   position: relative;
@@ -250,6 +247,7 @@ body {
   .main-timeline .title {
     margin-bottom: 10px;
   }
+ 
 }
 .timeline_title {
   text-align: center !important;
@@ -265,12 +263,13 @@ body {
     font-size: 14vw;
     padding-top: 20%;
   }
+
 }
 
 
 
 
-
+/* timer */
 #timer {
   font-size: 0.5em;
   font-weight: 700;
