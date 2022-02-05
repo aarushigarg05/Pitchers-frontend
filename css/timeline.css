@@ -199,6 +199,9 @@
   .main-timeline .timeline:nth-child(2n) .timeline-content {
     padding: 10px 30px 10px 0;
   }
+  .big_text{
+    font-size : 3.3rem;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -247,6 +250,9 @@
   .main-timeline .title {
     margin-bottom: 10px;
   }
+  .big_text{
+    font-size : 3rem;
+  }
  
 }
 .timeline_title {
@@ -263,6 +269,10 @@
     font-size: 14vw;
     padding-top: 20%;
   }
+  .big_text{
+    font-size : 3rem;
+  }
+
 
 }
 
