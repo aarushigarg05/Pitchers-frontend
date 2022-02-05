@@ -215,14 +215,18 @@ body {
 }
 /* button code */
 .button-56 {
-  align-items: center;
+  
   background-color: #000000;
   border: 2px solid #f3c623;
   border-radius: 8px;
+  margin: 1%;
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  /* display: flex; */
+  /* display: flex;  */
+  flex-direction: column;
+  
+  align-items: center;
   font-family: Inter, sans-serif;
   font-size: 16px;
   height: 48px;
@@ -239,32 +243,50 @@ body {
 }
 
 .button-56:after {
-  background-color: rgb(255, 255, 255);
+   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   content: "";
-  /* display: inline;
+  /*display: inline;
   display: block; */
   height: 48px;
   left: 0;
   width: 100%;
   position: absolute;
   top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform 0.2s ease-out;
-  z-index: -1;
-}
-
-.button-56:hover:after {
-  transform: translate(0, 0);
-}
+  transform: translate(0px, 0px); 
+   transition: transform 0.2s ease-out; 
+   z-index: -1; 
+} 
 
 .button-56:active {
   background-color: #888888;
   outline: 0;
+  
+}
+.button-56:hover:after {
+  
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  content: "";
+  /*display: inline;*/
+ /* display: block; */
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px,8px); 
+  z-index: -1;
+  transition: transform 0.2s ease-out;
+  
 }
 
+
+
 .button-56:hover {
-  outline: 0;
+ outline: 0;
+ 
+  
 }
 
 @media (min-width: 768px) {
@@ -376,4 +398,12 @@ body {
      border-style:solid;
       border-color:#dfc13f; 
       padding: 0.2em;
+  }
+.flexx{
+  
+     display: flex;
+    flex-direction: column-reverse;
+    
+    align-items: center; 
+   
   }
