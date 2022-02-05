@@ -77,9 +77,9 @@
           <a
             href="index.html"
             style="
-              background-image: url(images/xbg_1.jpg.pagespeed.ic.V7euF_Sby_.jpg);
+              background-image: url(images/xbg_1.jpg.pagespeed.ic.V7euF_Sby_.jpg); font-size:medium;
             "
-            >Mostudio</a
+            >Pitchers 6.0</a
           >
         </h1>
         <nav id="colorlib-main-menu" role="navigation">
@@ -91,30 +91,6 @@
             <li class="colorlib-active"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <div class="colorlib-footer">
-          <div class="mb-4">
-            <h3>Subscribe for newsletter</h3>
-            <form action="#" class="colorlib-subscribe-form">
-              <div class="form-group d-flex">
-                <div class="icon"><span class="icon-paper-plane"></span></div>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter Email Address"
-                />
-              </div>
-            </form>
-          </div>
-          <p class="pfooter">
-            Copyright &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            All rights reserved | This template is made with
-            <i class="fa fa-heart" aria-hidden="true"></i> by
-            <a href="https://colorlib.com/" target="_blank">Colorlib.com</a>
-          </p>
-        </div>
       </aside>
       <div id="colorlib-main">
         <section class="registration">
@@ -122,18 +98,18 @@
             <div class="container">
               <div class="title">LOGIN</div>
               <div class="content">
-                <form action="#">
+                <form action="{% url 'login' %}" method="POST"> 
                   <div class="rollnumber">
                     <div class="input-box">
-                      <span class="details">Enter your E-Mail </span>
-                      <input type="text" placeholder="Enter here" required />
+                      <span class="details">E-Mail </span>
+                      <input type="text" placeholder="Enter your E-Mail" name="email" id="email" required />
                     </div>
                   </div>
 
                   <div class="rollnumber" style="padding-top: 10px">
                     <div class="input-box">
-                      <span class="details">Enter Your Password</span>
-                      <input type="text" placeholder="Enter here" required />
+                      <span class="details">Password</span>
+                      <input type="text" placeholder="Enter your Password" name="password" id= "password" required />
                     </div>
                   </div>
 
