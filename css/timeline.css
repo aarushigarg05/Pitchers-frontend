@@ -304,3 +304,15 @@
   font-size: .35em;
   font-weight: 400;
 }
+
+
+/*pitchers*/
+
+.pitchers{
+  display: inline !important;
+  font-size: 8vh;
+  color: white;
+  font-weight: ;
+  margin-right: 1vw; 
+  margin-left: 1vw;
+}
