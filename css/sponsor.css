@@ -484,3 +484,9 @@ body {
   margin: auto;
   padding-bottom: 10%;
 }
+.logo{
+  max-height: 142px !important;
+	margin-top: -35px !important;
+  width:15rem;
+  margin-left: 2rem;
+}
