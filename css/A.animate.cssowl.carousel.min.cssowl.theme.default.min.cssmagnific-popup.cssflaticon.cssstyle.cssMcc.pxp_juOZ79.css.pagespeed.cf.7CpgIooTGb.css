@@ -5503,11 +5503,17 @@ form .button input:hover {
     margin-right: auto;
     padding-right: 0 !important;
     padding-bottom: 20px;
+    padding-top:30rem !important;
   }
   .qqq .button-56 {
     margin: 60px !important;
   }
   #signinbutton {
     width: 6.5rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .qqq {
+    padding-top: 30rem;
   }
 }
