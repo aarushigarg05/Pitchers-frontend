@@ -272,7 +272,13 @@
   .big_text{
     font-size : 2.9rem;
   }
-
+  .content
+  {
+   max-width:100% !important;
+  }
+.logo{
+  margin-left:-1.5rem
+}
 
 }
 
