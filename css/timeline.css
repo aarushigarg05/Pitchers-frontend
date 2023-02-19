@@ -251,7 +251,7 @@
     margin-bottom: 10px;
   }
   .big_text{
-    font-size : 3rem;
+    font-size : 2.8rem;
   }
  
 }
@@ -270,10 +270,18 @@
     padding-top: 20%;
   }
   .big_text{
-    font-size : 3rem;
+    font-size : 2.9rem;
   }
-
-
+  .content
+  {
+   max-width:100% !important;
+  }
+.logo{
+  margin-left:-1.5rem
+}
+.pitchers{
+  font-size:4vh !important;
+}
 }
 
 
@@ -297,4 +305,15 @@
   display: block;
   font-size: .35em;
   font-weight: 400;
+}
+
+
+/*pitchers*/
+
+.pitchers{
+  display: inline !important;
+  font-size: 8vh;
+  color: white;
+  margin-right: 1vw; 
+  margin-left: 1vw;
 }
